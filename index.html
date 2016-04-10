@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="src/c/style.css">
+  </head>
+  <body>
+  	<div class="_bodyContent">
+  		<div class="workStation" >
+  			<div id="main"></div>
+  		</div>
+  		<div class="galSection">
+  		<div class="gallery" id="imgUpload">
+  		</div>
+  		<div class="upload">
+  		<label class="uploadButton" for="imgInp">+ UPLOAD</label>
+                <input name="imgInp" accept="image/*" id="imgInp" style="display: none" type='file' onchange="droppedImage(this);" />
+  		</div>
+  		</div>
+  	</div>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
+
+  	<script type="text/javascript" src="src/j/cropper.js"></script>
+  </body>
+</html>
